@@ -1,18 +1,18 @@
 // Variables
-var result = "/n"
+var result = "\n"
 
 
 
 // Script Part
-for (i = 0;i < 8; i++){
-for (j = 0;j < 4; j++){
+for (var i = 0;i < 8; i++){
+for (var j = 0;j < 4; j++){
 
 }
 if ((i+j) % 2 === 0){
-    result+= "#"
+    result+= "#";
 } else {
-    result+= "_"
+    result+= "_";
 }
-result+= "\n"
+result+= "\n";
 }
 console.log(result);
